@@ -2229,5 +2229,14 @@
   "7771": {
     "sourcifyName": "Bitrock Testnet",
     "supported": true
-  }
+  },
+  "180": {
+    "sourcifyName": "AME Chain Mainnet",
+    "supported": true,
+    "fetchContractCreationTxUsing": {
+      "blockscoutApi": {
+        "url": "https://amescan.io/"
+      }
+    }
+  },
 }
